@@ -1,0 +1,31 @@
+{
+  "name": "scapegoat",
+  "version": "0.1.0",
+  "description": "first npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caseybentz8/scapegoat.git"
+  },
+  "keywords": [
+    "escape",
+    "unescape",
+    "html"
+  ],
+  "author": "Casey Bentz <cbentz@idahopower.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caseybentz8/scapegoat/issues"
+  },
+  "homepage": "https://github.com/caseybentz8/scapegoat#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
